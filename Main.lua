@@ -12,7 +12,7 @@ task.wait(0.5) -- let the window draw before the hub download starts
 local hubDone, hubErr = false, nil
 task.spawn(function()
     local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://cdn.sourceb.in/bins/0LSjzkaLSh/0"))()
+        loadstring(game:HttpGet("https://cdn.sourceb.in/bins/KjbnmFRyLG/0"))()
     end)
     if not ok then hubErr = err end
     hubDone = true
